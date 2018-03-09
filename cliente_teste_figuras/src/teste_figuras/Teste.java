@@ -28,6 +28,7 @@ public class Teste {
 		geometria.add(new Cilindro(2, 7));
 		geometria.add(new Piramide(20,20,10));
 		
+		
 		for(Figura figura : geometria.getFiguras()) {
 			System.out.println(geometria.area(figura));
 			System.out.println(geometria.perimetro(figura));
