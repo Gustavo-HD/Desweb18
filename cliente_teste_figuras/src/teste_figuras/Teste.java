@@ -32,6 +32,7 @@ public class Teste {
 			System.out.println(geometria.area(figura));
 			System.out.println(geometria.perimetro(figura));
 			
+			
 			if(figura instanceof Diagonal) {
 				System.out.println(geometria.diagonal((Diagonal)figura));
 			}
